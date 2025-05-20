@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 10px;
+
+
+    .usuarios{
+        width: 200px;
+        box-shadow: 0 0 2px #AAA;
+        padding: 10px;
+        img{
+            max-width: 100%;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: #333;
+        }
+    }
+}
